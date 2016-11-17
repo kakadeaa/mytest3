@@ -5,7 +5,7 @@ int main()
 
     printf("Enter a positive integer: ");
     scanf("%d",&n);
-
+    //no of iterations reduced to n/2
     for(i=2; i<=n/2; ++i)
     {
         // condition for nonprime number
