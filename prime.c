@@ -5,7 +5,7 @@ int main()
 
     printf("Enter a positive integer: ");
     scanf("%d",&n);
-
+    //no of iterations reduced to n/2 so efficiency increased
     for(i=2; i<=n/2; ++i)
     {
         // condition for nonprime number
@@ -17,7 +17,9 @@ int main()
     }
 
     if (flag==0)
+    {
         printf("%d is a prime number.",n);
+    }
     else
         printf("%d is not a prime number.",n);
     
