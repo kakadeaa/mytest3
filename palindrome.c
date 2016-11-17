@@ -7,7 +7,7 @@ int main()
     scanf("%d", &n);
 
     originalInteger = n;
-
+    //added some more comment
     // reversed integer is stored in variable 
     while( n!=0 )
     {
